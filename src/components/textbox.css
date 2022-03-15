@@ -1,0 +1,393 @@
+/***************************************************************************/
+/****** Table of Contents *********/
+
+.toc-button {
+  cursor: pointer;
+  font-family: Special Elite;
+  line-height: 1.3em;
+  font-size: 1em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color-logo);
+  padding: 0;
+  margin: 3px;
+  margin-right: 6px;
+  margin-left: 6px;
+  height: calc(0.12 * var(--text-width));
+  width: calc(0.41 * var(--text-width));
+  text-align: center;
+  background-color: var(--color-logo-text);
+  border-color: #3b3b3b;
+  color: #3b3b3b;
+  opacity: 0.85;
+}
+
+.toc-button:hover {
+  opacity: 1;
+}
+
+.toc-button:active {
+  transform: scale(0.98);
+}
+
+.toc-button-prop {
+  opacity: 1;
+  font-size: 1.4em;
+}
+
+.toc-button-prop:hover {
+  transform: scale(1.01);
+}
+
+/***************************************************************************/
+/****** Title *********/
+
+.fpage {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  display: inline-block;
+}
+
+.fpage > .title {
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 2em;
+}
+
+.fpage > .subtitle {
+  font-family: var(--title-font);
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.fpage > .line-break {
+  border-top: 2px solid #CDA34F;
+  width: 100%;
+  height: 2rem;
+  margin: 1rem auto 0;
+}
+
+.fpage > .byline {
+  font-weight: "bold";
+  font-size: 1.05em;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 60px;
+  font-family: var(--title-font);
+}
+
+.message {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  margin-top: 50px;
+  display: inline-block;
+  border-color: #000;
+  border-style: solid;
+  border-width: 2px;
+  padding: 7px;
+  text-align: justify;
+}
+
+/***************************************************************************/
+/****** Text Tooltip *********/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.tooltip > span {
+  visibility: hidden;
+  width: 400px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -20px;
+  margin-bottom: 1em;
+  opacity: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: opacity 1s;
+}
+
+.tooltip span::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 5%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/***************************************************************************/
+/****** TextBox *********/
+
+sup {
+  font-size: 0.8em !important;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+sup span {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  justify-content: space-between;
+}
+
+#textbox {
+  background-color: var(--color-text-background);
+  color: var(--color-text);
+  position: relative;
+  left: 0;
+  top: var(--header-height);
+  min-height: calc(100vh - var(--header-height));
+  width: var(--text-width);
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  padding: 30px;
+  padding-top: 45px;
+}
+
+#textbox p {
+  font-family: var(--body-font);
+  line-height: 1.3em;
+  font-size: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#textbox .emquote p {
+  padding-left: 40px;
+  font-size: 0.98em;
+}
+
+#textbox .Collapsible {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#textbox .Collapsible > span {
+  font-family: var(--body-font);
+  line-height: 2.2em;
+  font-size: 22px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#textbox .Collapsible__contentOuter {
+  border-top: 1px solid #aaa;
+  padding-top: 16px;
+}
+
+.Collapsible__trigger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 10px;
+  color: black;
+}
+
+.Collapsible__trigger:after {
+  font-family: 'FontAwesome';
+  content: '\f107';
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: transform 300ms;
+}
+
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
+}
+
+.Collapsible__trigger.is-disabled {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+
+#textbox p > span {
+  color: #a99a0f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#textbox p > span:hover {
+  color: var(--color-logo);
+}
+
+#textbox span > span {
+  font-size: 1em;
+  color: #a99a0f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#textbox span > span:hover {
+  color: var(--color-logo);
+}
+
+#textbox p > em > span {
+  color: #a99a0f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#textbox p > em > span:hover {
+  color: var(--color-logo);
+}
+
+#textbox p > sup > a {
+  color: #a99a0f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#textbox p > sup > a:hover {
+  color: var(--color-logo);
+}
+
+#textbox  p > a {
+  color: #a99a0f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#textbox  p > a:hover {
+  color: var(--color-logo);
+}
+
+#textbox > div > h1 {
+  font-family: var(--title-font);
+  color: var(--color-logo);
+  line-height: 1.2em;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#textbox > div > h2 {
+  font-family: var(--title-font);
+  color: var(--color-logo);
+  line-height: 1.8em;
+  font-size: 22px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+#textbox > div > .pstart:first-letter {
+  color: var(--color-logo);
+  float: left;
+  font-family: Georgia;
+  font-size: 4.5em;
+  line-height: 50px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 0px;
+}
+
+#textbox > button {
+  background-color: #f1f1f1;
+  color: black;
+  position: fixed;
+  border-radius: 4px;
+  background-color: #3b3b3b;
+  font-size: 1em;
+  cursor: pointer;
+  opacity: 1;
+  height: 30px;
+  color: #cccccc;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+  transition: all 0.1s ease 0s;
+}
+
+#text-btn-back {
+  left: 0px;
+  top: 50px;
+  z-index: 1000;
+}
+
+#text-btn-map {
+  top: 15px;
+  left: var(--text-width);
+  transform: translateX(-100%);
+  visibility: hidden;
+}
+
+#text-btn-topic {
+  top: 50px;
+  left: var(--text-width);
+  transform: translateX(-100%);
+  visibility: hidden;
+}
+
+#textbox > button:hover {
+  background-color: #4e4e4e;
+}
+
+.text-holder {
+  margin-bottom: 100px;
+}
+
+figure {
+  margin-top: 1em !important;
+  font-family: var(--body-font);
+  line-height: 1.3em;
+  font-size: 18px;
+  box-sizing: border-box;
+  text-align: center;
+  text-justify: inter-word;
+  width: 100%;
+}
+
+figure > img {
+  cursor: pointer;
+  width: 80%;
+  margin: 0;
+}
+
+#textbox blockquote p {
+  color: #818181;
+  padding-left: 2.5em;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+}
