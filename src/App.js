@@ -98,8 +98,8 @@ class Viewer extends React.Component {
 
       <footer>
         <div id="footer">
-          <div>©2021 Stanford University | Terms of Use</div>
-          <div>ISBN XXXXXXXXXXXX | DOI 10.XXXXX/XXXXXXXX | OCLC XXXXXXXX</div>
+          <div>©2022 Stanford University | Terms of Use</div>
+          <div>ISBN 9781503615281 | DOI 10.21627/2022ll | OCLC XXXXXXXX</div>
           <div>
             Published by Stanford University Press
           </div>
