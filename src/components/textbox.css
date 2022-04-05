@@ -268,7 +268,7 @@ sup span {
 }
 
 #textbox p > sup > a {
-  color: #a99a0f;
+  color: #71660A;
   cursor: pointer;
   text-decoration: none;
 }
@@ -278,7 +278,7 @@ sup span {
 }
 
 #textbox  p > a {
-  color: #a99a0f;
+  color: #71660A;
   cursor: pointer;
   text-decoration: none;
 }
@@ -385,7 +385,7 @@ figure > img {
 }
 
 #textbox blockquote p {
-  color: #818181;
+  color: #666666;
   padding-left: 2.5em;
   box-sizing: border-box;
   text-align: justify;
