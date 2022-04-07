@@ -39,6 +39,15 @@ const meta_labels = {
   "race_writer": "Black Writers (%)",
 }
 
+const customStyles = {
+  placeholder: (defaultStyles) => {
+    return {
+        ...defaultStyles,
+        color: '#757575',
+    }
+  }
+}
+
 function ThemeOption(props)
 {
   let history = useHistory();
@@ -382,6 +391,7 @@ class TopicContainer extends React.Component {
         </div>
         <div className="select-group">
           <Select
+            styles={customStyles}
             options={ model_options }
             className="myselect"
             isSearchable={false}
@@ -390,6 +400,7 @@ class TopicContainer extends React.Component {
             value={null}
             />
           <Select
+            styles={customStyles}
             options={ meta_options }
             className="myselect"
             isSearchable={false}

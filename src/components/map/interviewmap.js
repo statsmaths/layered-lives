@@ -13,6 +13,15 @@ import { InterviewBox } from "./interviewbox.js";
 import 'leaflet/dist/leaflet.css';
 import './interviewmap.css';
 
+const customStyles = {
+  placeholder: (defaultStyles) => {
+    return {
+        ...defaultStyles,
+        color: '#757575',
+    }
+  }
+}
+
 function MapOption(props)
 {
   let history = useHistory();
@@ -152,6 +161,7 @@ class InterviewMap extends React.Component {
       return (
         <div>
           <Select
+            styles={customStyles}
             options={ mapname_options }
             className="mapselect"
             isSearchable={false}
