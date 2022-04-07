@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_all</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_writers</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_women_writers</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_men_writers</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_black_writers</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_white_writers</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_black_interviewee</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_white_interviewee</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_ethnic</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map?maptype=geo_occupation</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;amp;prop=proportion&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=gender&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=race&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=gender_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=race_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=gender&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=race&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=gender_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=race_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=gender&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=race&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=gender_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=race_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=gender&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=race&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=gender_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=race_writer&amp;cnum=-1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=2</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=3</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=4</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=5</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=6</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=7</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=8</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=9</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=10</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=11</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=12</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=13</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=14</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=15</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_nodialect&amp;prop=proportion&amp;cnum=16</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=1</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=2</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=3</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=4</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=5</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=6</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=7</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=8</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=9</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=10</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=11</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=12</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=13</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=14</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=15</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/theme?type=topic_dialect&amp;prop=proportion&amp;cnum=16</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=1</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=2</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=3</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=4</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=5</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=6</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=7</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=8</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=9</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=10</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=11</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=12</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=13</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=14</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=15</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=16</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=17</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=18</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=19</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=20</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=21</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=22</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=23</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=24</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=25</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=26</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=27</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=28</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=29</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=30</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=31</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_nodialect&amp;prop=proportion&amp;cnum=32</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=1</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=2</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=3</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=4</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=5</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=6</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=7</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=8</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=9</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=10</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=11</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=12</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=13</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=14</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=15</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=16</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=17</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=18</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=19</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=20</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=21</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=22</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=23</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=24</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=25</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=26</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=27</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=28</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=29</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=30</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=31</loc>
+    </url>
+
+    <url>
+       <loc>https://statsmaths.github.io/layered-lives/build/theme?type=cluster_dialect&amp;prop=proportion&amp;cnum=32</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=al</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=ar</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=fl</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=ga</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=la</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=nc</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=sc</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=tn</loc>
+    </url>
+
+    <url>
+      <loc>https://statsmaths.github.io/layered-lives/build/map&amp;state=va</loc>
+    </url>
+
+</urlset>
