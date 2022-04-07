@@ -94,13 +94,26 @@ class InterviewMap extends React.Component {
       ];
 
       let mtype = queryUrl(this.props.location.search, "maptype", "geo_all");
+      let btype = queryUrl(this.props.location.search, "state", "all");
       let geodata = this.state.data[mtype].points;
       let geolegend = this.state.data[mtype].legend;
+
+      let bounds = [[25.53511, -92.33793], [38.47061, -75.68696]];
+
+      if (btype === "al") { bounds = [[30.223334, -88.473227], [35.008028, -84.889080]]; }
+      if (btype === "ar") { bounds = [[33.004106, -94.617919], [36.499600, -89.644395]]; }
+      if (btype === "fl") { bounds = [[24.523096, -87.634938], [31.000888, -80.031362]]; }
+      if (btype === "ga") { bounds = [[30.357851, -85.605165], [35.000659, -80.839729]]; }
+      if (btype === "la") { bounds = [[28.928609, -94.043147], [33.019457, -88.817017]]; }
+      if (btype === "nc") { bounds = [[33.842316, -84.321869], [36.588117, -75.460621]]; }
+      if (btype === "sc") { bounds = [[32.034600, -83.353910], [35.215402, -78.542030]]; }
+      if (btype === "tn") { bounds = [[34.982972, -90.310298], [36.678118, -81.646900]]; }
+      if (btype === "va") { bounds = [[36.540738, -83.675395], [39.466012, -75.242266]]; }
 
       var map = (
         <div id="map-container">
           <MapContainer
-            bounds={[[25.53511, -92.33793], [38.47061, -75.68696]]}
+            bounds={bounds}
             zoomControl={false}
             scrollWheelZoom={false}
             touchZoom={false}
