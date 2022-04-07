@@ -189,7 +189,7 @@ class InterviewMap extends React.Component {
               handleSelectPoint={this.handleSelectPoint.bind(this)}
             />
           </div>
-          </div>
+        </div>
       );
 
     }

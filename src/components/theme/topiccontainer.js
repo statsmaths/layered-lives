@@ -105,11 +105,9 @@ function AllTopics(props) {
   }
 
   return (
-    <span
-      className="topic-span"
-      onClick={() => handleClick()}>
-      {props.content}
-    </span>
+    <button className="topic-span" onClick={() => handleClick()}>
+        {props.content}
+    </button>
   );
 
 
@@ -140,25 +138,26 @@ function TopicBar(props) {
   let rows = props.td.all.map( (val, i) => {
 
     return(
-      <div
+      <button
         className="topic-list-row"
         key={i}
         onClick={() => handleClick(i + 1)}
+        tabIndex="0"
         >
         <div
           className="topic-list-text">
-          <span>{val.description}</span>
+          <span className="center-text">{val.description}</span>
         </div>
         <div className="topic-list-percent">
           <span>{Math.round(props.weights[i]) + "%"}</span>
         </div>
         <div className="topic-list-size">
-        <div
-          className="topic-list-inner"
-          style={{width: weights[i] + "%"}}>
+          <div
+            className="topic-list-inner"
+            style={{width: weights[i] + "%"}}>
+          </div>
         </div>
-        </div>
-      </div>
+      </button>
     )
   })
 
@@ -203,14 +202,14 @@ function DocBar(props) {
           props.td.topics[props.cnum - 1].top_docs_ids[i]
         ].id;
         return(
-          <div
+          <button
             className="topic-list-row"
             key={i}
             onClick={() => openXmlId(clickid)}
             >
             <div
               className="topic-list-text">
-              <span>{val}</span>
+              <span className="center-text">{val}</span>
             </div>
             <div className="topic-list-percent">
               <span>{Math.round(weights[i]) + "%"}</span>
@@ -221,7 +220,7 @@ function DocBar(props) {
               style={{width: weights[i] + "%"}}>
             </div>
             </div>
-          </div>
+          </button>
         )
       })}
     </div>
@@ -265,7 +264,7 @@ function ListBar(props) {
         var clickclass = "topic-list-row";
         if (!clickfun) {
           clickfun = function() {};
-          clickclass = "topic-list-row noclick"
+          clickclass = "topic-list-row-noclick"
         }
 
         return(

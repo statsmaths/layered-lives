@@ -2,6 +2,10 @@ import React from 'react';
 
 import './interviewbox.css';
 
+const handleOpenXml = (id) => {
+    window.open("./data/xml/" + id + ".xml");
+  };
+
 class InterviewBox extends React.Component {
 
   render() {
@@ -16,15 +20,11 @@ class InterviewBox extends React.Component {
 
     let links = this.props.selection.links.map( (val, i) => {
       return (
-        <div key={i}>
-          <a href={"./data/xml/" + val.id + ".xml"}
-             target="_blank"
-             rel="noopener noreferrer">
-            <li>
-              {val.title}
-            </li>
-          </a>
-        </div>
+        <li>
+          <button key={i} onClick={() => handleOpenXml(val.id)}>
+            {val.title}
+          </button>
+        </li>
       )
     })
 
@@ -33,18 +33,20 @@ class InterviewBox extends React.Component {
         <div className="interview-meta">
           <h3> { this.props.selection.title } </h3>
           <hr width="100%"/>
+          <button
+            className="svg-close"
+            onClick={() => this.props.handleSelectPoint(-1)}>
+            <img
+              src="static/close-black.svg"
+              width="20"
+              height="20"
+              alt=""/>
+          </button>
           <div className="interview-list-box">
             <ul>
               { links }
             </ul>
           </div>
-          <img
-            className="svg-close"
-            src="static/close-black.svg"
-            width="20"
-            height="20"
-            onClick={() => this.props.handleSelectPoint(-1)}
-            alt=""/>
         </div>
       </div>
     )

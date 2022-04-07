@@ -69,21 +69,34 @@
   max-height: 200px;
 }
 
+.interview-list-box button {
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  text-indent: 12pt;
+  font-family: var(--body-font);
+  font-size: 0.9em;
+}
+
 .interview-list-box ul li {
   color: #333;
-  border-top: 1px solid #000;
   cursor: pointer;
   height: 2em;
   line-height: 2em;
-  padding-left: 16px;
-}
-
-.interview-list-box a {
-  color: #333;
-  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .interview-list-box ul li:hover {
+  background-color: #d1cfc4;
+}
+
+.interview-list-box ul button:focus {
   background-color: #d1cfc4;
 }
 
@@ -104,8 +117,8 @@
   fill: white;
   font-weight: bold;
   font-size: 5px;
+  border: none;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.2);
   top: 15px;
   right: 35px;
