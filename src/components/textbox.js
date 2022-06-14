@@ -89,7 +89,7 @@ class TextBox extends React.Component {
     {
       button = (<button
         id="text-btn-back"
-        onClick={() => this.props.handlePage(0)}>&laquo; Contents</button>)
+        onClick={() => this.props.handlePage(0)}>&#8617;</button>)
     }
 
     return(

@@ -42,11 +42,18 @@ function Layer0(props) {
   </button>
 
   <button className="toc-button"  onClick={() => props.handlePage(7)}>
-    Method
+    Methods
   </button>
 
-  <button className="toc-button"  onClick={() => props.handlePage(8)}>
+  <button className="toc-button" onClick={() => props.handlePage(8)}>
     Bibliography
+  </button>
+
+  <button
+    className="toc-button toc-button-download"
+    onClick={() => window.open('https://github.com/statsmaths/layered-lives', '_blank')}
+  >
+    Download PDF
   </button>
 
   {(false) && (<div className="message"></div>) }

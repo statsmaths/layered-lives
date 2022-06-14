@@ -23,6 +23,11 @@
   opacity: 0.85;
 }
 
+.toc-button-download {
+  margin-left: 110px;
+  margin-top: 25px;
+}
+
 .toc-button:hover {
   opacity: 1;
 }
@@ -183,56 +188,61 @@ sup span {
   text-justify: inter-word;
 }
 
+#textbox ol {
+  padding-left: 30px;
+}
+
+a.anchorhead {
+  position: relative;
+  top: -35px;
+  visibility: hidden;
+}
+
+a.anchor {
+  position: relative;
+  top: -45px;
+  visibility: hidden;
+}
+
+span.lback {
+  margin: 1em !important;
+  font-family: var(--title-font);
+  font-size: 0.65em;
+}
+
+span.lback a {
+  color: black !important;
+  text-decoration-line: underline !important;
+  text-decoration: dotted;
+}
+
+div.toc {
+  font-size: 1.1em;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.toc ul {
+  list-style-type: none;
+  line-height: 1.3em;
+}
+
+div.toc ul li.menu-item:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+div.toc a {
+  font-size: 1em;
+  color: black;
+  text-decoration-line: underline !important;
+  text-decoration: dotted;
+  font-family: var(--title-font);
+}
+
 #textbox .emquote p {
   padding-left: 40px;
   font-size: 0.98em;
-}
-
-#textbox .Collapsible {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#textbox .Collapsible > span {
-  font-family: var(--body-font);
-  line-height: 2.2em;
-  font-size: 22px;
-  padding-left: 10px;
-  box-sizing: border-box;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-#textbox .Collapsible__contentOuter {
-  border-top: 1px solid #aaa;
-  padding-top: 16px;
-}
-
-.Collapsible__trigger {
-  cursor: pointer;
-  display: block;
-  position: relative;
-  padding: 10px;
-  color: black;
-}
-
-.Collapsible__trigger:after {
-  font-family: 'FontAwesome';
-  content: '\f107';
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  display: block;
-  transition: transform 300ms;
-}
-
-.Collapsible__trigger.is-open:after {
-  transform: rotateZ(180deg);
-}
-
-.Collapsible__trigger.is-disabled {
-  opacity: 0.5;
-  background-color: grey;
 }
 
 
@@ -301,6 +311,15 @@ sup span {
   font-family: var(--title-font);
   color: var(--color-logo);
   line-height: 1.8em;
+  font-size: 22px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+#textbox > div > h3 {
+  font-family: var(--title-font);
+  color: var(--color-logo);
+  line-height: 0.8em;
   font-size: 22px;
   padding: 10px;
   padding-bottom: 0px;
