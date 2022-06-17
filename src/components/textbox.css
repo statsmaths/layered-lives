@@ -204,6 +204,15 @@ a.anchor {
   visibility: hidden;
 }
 
+a.footnote-ref {
+  color: #655c09 !important;
+}
+
+a.footnote-hover {
+  color: #a99a0f !important;
+  font-weight: bold;
+}
+
 span.lback {
   margin: 1em !important;
   font-family: var(--title-font);

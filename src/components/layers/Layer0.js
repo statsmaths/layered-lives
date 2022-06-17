@@ -51,7 +51,7 @@ function Layer0(props) {
 
   <button
     className="toc-button toc-button-download"
-    onClick={() => window.open('https://github.com/statsmaths/layered-lives', '_blank')}
+    onClick={() => window.open('https://raw.githubusercontent.com/statsmaths/layered-lives/main/pdf/layered-lives.pdf', '_blank')}
   >
     Download PDF
   </button>
