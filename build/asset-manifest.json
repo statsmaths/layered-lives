@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/layered-lives/build/static/css/main.013931c8.chunk.css",
-    "main.js": "/layered-lives/build/static/js/main.de8b17e4.chunk.js",
-    "main.js.map": "/layered-lives/build/static/js/main.de8b17e4.chunk.js.map",
+    "main.js": "/layered-lives/build/static/js/main.991771ab.chunk.js",
+    "main.js.map": "/layered-lives/build/static/js/main.991771ab.chunk.js.map",
     "runtime-main.js": "/layered-lives/build/static/js/runtime-main.5da0c8eb.js",
     "runtime-main.js.map": "/layered-lives/build/static/js/runtime-main.5da0c8eb.js.map",
     "static/css/2.c1e28d34.chunk.css": "/layered-lives/build/static/css/2.c1e28d34.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.c1e28d34.chunk.css",
     "static/js/2.3d96e90e.chunk.js",
     "static/css/main.013931c8.chunk.css",
-    "static/js/main.de8b17e4.chunk.js"
+    "static/js/main.991771ab.chunk.js"
   ]
 }

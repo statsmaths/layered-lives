@@ -5,6 +5,8 @@ function Layer0(props) {
     // Should have access to all of these:
     //    props.handlePage(PAGENUM)
 
+    let sup_version = true;
+
     return(
 <div>
 
@@ -49,12 +51,14 @@ function Layer0(props) {
     Bibliography
   </button>
 
-  <button
+  {(!sup_version) && (<button
     className="toc-button toc-button-download"
     onClick={() => window.open('https://raw.githubusercontent.com/statsmaths/layered-lives/main/pdf/layered-lives.pdf', '_blank')}
   >
     Download PDF
-  </button>
+  </button>) }
+
+
 
   {(false) && (<div className="message"></div>) }
 
