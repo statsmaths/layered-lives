@@ -205,11 +205,11 @@ a.anchor {
 }
 
 a.footnote-ref {
-  color: #655c09 !important;
+  color: #000000 !important;
 }
 
 a.footnote-hover {
-  color: #a99a0f !important;
+  color: #76323F !important;
   font-weight: bold;
 }
 
@@ -256,9 +256,10 @@ div.toc a {
 
 
 #textbox p > span {
-  color: #a99a0f;
+  color: #76323F;
   cursor: pointer;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #textbox p > span:hover {
@@ -267,7 +268,7 @@ div.toc a {
 
 #textbox span > span {
   font-size: 1em;
-  color: #a99a0f;
+  color: #76323F;
   cursor: pointer;
   text-decoration: none;
 }
@@ -277,7 +278,7 @@ div.toc a {
 }
 
 #textbox p > em > span {
-  color: #a99a0f;
+  color: #76323F;
   cursor: pointer;
   text-decoration: none;
 }
@@ -308,30 +309,33 @@ div.toc a {
 
 #textbox > div > h1 {
   font-family: var(--title-font);
-  color: var(--color-logo);
+  color: #56242B;
   line-height: 1.2em;
   font-size: 1.5em;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
+  font-weight: bold;
 }
 
 #textbox > div > h2 {
   font-family: var(--title-font);
-  color: var(--color-logo);
+  color: #56242B;
   line-height: 1.8em;
   font-size: 22px;
+  font-weight: bold;
   padding: 10px;
   padding-bottom: 0px;
 }
 
 #textbox > div > h3 {
   font-family: var(--title-font);
-  color: var(--color-logo);
+  color: #56242B;
   line-height: 0.8em;
   font-size: 22px;
   padding: 10px;
   padding-bottom: 0px;
+  font-weight: bold;
 }
 
 #textbox > div > .pstart:first-letter {
